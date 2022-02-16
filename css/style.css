@@ -76,3 +76,13 @@ nav li a, nav li a:visited {
     width: 12.12%;
 }
 
+.greet h2 {
+    font-size: 2rem;
+    float: left;
+    width: 50%;
+    padding: 0 .3em;
+}
+
+.greet h2 + h2 {
+    text-align: right;
+}
