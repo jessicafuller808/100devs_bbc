@@ -97,7 +97,7 @@ nav li a, nav li a:visited {
     text-align: right;
 }
 
-/*main*/
+/*main main_left*/
 
 main .main_left, main .main_right {
     width: 50%;
@@ -109,5 +109,34 @@ main .main_left, main .main_right {
 
 .main_left {
     background-image: url("../img/leaders.png");
+    background-size: cover;
+}
+
+/*main main_right */
+
+.main_right section {
+    float: left;
+    width: 50%;
+    border: 1px solid black;
+    height: 22.5vh;
+}
+
+.grid1 {
+    background-image: url("../img/neighbors.png");
+    background-size: cover;
+}
+
+.grid2 {
+    background-image: url("../img/vaccines.png");
+    background-size: cover;
+}
+
+.grid3 {
+    background-image: url("../img/working.png");
+    background-size: cover;
+}
+
+.grid4 {
+    background-image: url("../img/musician.png");
     background-size: cover;
 }
